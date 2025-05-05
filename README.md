@@ -78,12 +78,7 @@ Fairness violations identified and tracked
 End-to-end monitoring and security enforcement
 
 📁 **Repository Structure (Simplified)**
-/data_processing/: Kafka consumers and data ingestors
-/model_training/: SVD, KNN, and GCN training and retraining scripts
-/inference_service/: API endpoints and backend interface
-/monitoring/: Prometheus & Grafana configuration
-/Fairness/: Bias analysis notebooks
-/ABTESTING/: Accuracy comparison and evaluation scripts
-/security_analysis/: Threat models and mitigation workflows
+![image](https://github.com/user-attachments/assets/f65c730b-20eb-4028-907c-45ab1a6237b1)
+
 
 
