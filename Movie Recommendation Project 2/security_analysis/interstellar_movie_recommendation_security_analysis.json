@@ -1,0 +1,1049 @@
+{
+  "version": "2.4.1",
+  "summary": {
+    "title": "interstellar_movie_recommendation_security_analysis",
+    "owner": "",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.4.1",
+        "cells": [
+          {
+            "position": {
+              "x": 380,
+              "y": 120.0000000000021
+            },
+            "size": {
+              "width": 890,
+              "height": 240
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "4173d451-11cd-4d58-9a99-4591e1dd2317",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "Load Balancer Server, ML Model Server(s), and Mongo DB Server are all within trust boundary",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 130,
+              "y": 200
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "User"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1e568965-19ab-4fe4-bee7-c997b4b98e46"
+                },
+                {
+                  "group": "right",
+                  "id": "9b97e65e-01ea-49c6-8461-4a95287a3340"
+                },
+                {
+                  "group": "bottom",
+                  "id": "70fc67cb-3a83-4b5a-8895-b4a0c35a1307"
+                },
+                {
+                  "group": "left",
+                  "id": "7bb55ecf-46f1-41e5-8111-4efe138ac05c"
+                }
+              ]
+            },
+            "id": "528d6fcb-e847-4cf6-b3df-a8c29543132b",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "User",
+              "description": "Instructor's VM in the project's scope, but can extend to all possible users in reality.",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 430,
+              "y": 190
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Load Balancer Server"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2f4d3b78-fef9-4186-b066-58fb5e2def8d"
+                },
+                {
+                  "group": "right",
+                  "id": "4290c93b-87c6-4c6d-91b8-483dddba30e8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "92d6c6d0-6bca-4789-8b87-cc3d69a666f1"
+                },
+                {
+                  "group": "left",
+                  "id": "b5683ab4-41bf-4f0c-b734-12b7403f1c7b"
+                }
+              ]
+            },
+            "id": "a738ece7-cdb3-46c3-92f6-1f7597c299a6",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Load Balancer Server",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "089c1217-fc91-49bb-a1be-63d8e48d8ac6",
+                  "title": "Expedition",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "See OWASP Automated Threat #6:\nUsing speed to violate explicit or implicit assumptions about the application’s normal use to achieve unfair individual gain",
+                  "mitigation": "Defences include providing enforcement of behavioral workflow and anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                },
+                {
+                  "id": "ae662952-7dcb-4606-b173-273f1fe1348d",
+                  "title": "Vulnerability scanning",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #14:\nSystematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist",
+                  "mitigation": "Defence includes providing anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "a1ef5e6f-dcc4-47ae-9896-f3c2e31bc99d",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "See OWASP Automated Threat #15:\nUsage may resemble legitimate application usage but leads to exhaustion of resources",
+                  "mitigation": "Mitigation or prevention such as providing backoff, resource management and avoiding forced deadlock",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 2,
+                "repudiation": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 725,
+              "y": 200
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "ML Model Server\n"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2f4d3b78-fef9-4186-b066-58fb5e2def8d"
+                },
+                {
+                  "group": "right",
+                  "id": "4290c93b-87c6-4c6d-91b8-483dddba30e8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "92d6c6d0-6bca-4789-8b87-cc3d69a666f1"
+                },
+                {
+                  "group": "left",
+                  "id": "b5683ab4-41bf-4f0c-b734-12b7403f1c7b"
+                }
+              ]
+            },
+            "id": "397e2a4a-5006-427f-a8f6-0c6d8014e992",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "ML Model Server\n",
+              "description": "SVD/KNN",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "13e28593-c15a-4b03-a5ad-6fd916b58298",
+                  "title": "Expedition",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "See OWASP Automated Threat #6:\nUsing speed to violate explicit or implicit assumptions about the application’s normal use to achieve unfair individual gain",
+                  "mitigation": "Defences include providing enforcement of behavioral workflow and anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "d8665430-bf3b-4ded-8010-77b451bfffe5",
+                  "title": "Expedition",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "See OWASP Automated Threat #6:\nUsing speed to violate explicit or implicit assumptions about the application’s normal use to achieve unfair individual gain",
+                  "mitigation": "Defences include providing enforcement of behavioral workflow and anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "69a66f34-0bd1-41a5-a790-18524a93e0be",
+                  "title": "Vulnerability scanning",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #14:\nSystematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist",
+                  "mitigation": "Defence includes providing anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "6dc0de09-e40a-4464-8106-78199139cc21",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "See OWASP Automated Threat #15:\nUsage may resemble legitimate application usage but leads to exhaustion of resources",
+                  "mitigation": "Mitigation or prevention such as providing backoff, resource management and avoiding forced deadlock",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 2,
+                "repudiation": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 1000,
+              "y": 200
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Mongo DB Store"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "cbb3e97b-877d-444a-8039-0f554907b4bb"
+                },
+                {
+                  "group": "right",
+                  "id": "54ebc8d5-0724-4928-8da8-2ec44a94e151"
+                },
+                {
+                  "group": "bottom",
+                  "id": "a7be8300-da8d-49dc-90ab-4b96696d1393"
+                },
+                {
+                  "group": "left",
+                  "id": "e50786f4-72ad-442b-8571-6af59a2f833d"
+                }
+              ]
+            },
+            "id": "292f9012-f4b1-4c1c-9d9e-f1624c4f01a7",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "Mongo DB Store",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "051d60c6-43ab-466d-834a-e8305372562f",
+                  "title": "Scraping",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
+                  "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "17b05a49-366f-4fed-aa19-f5229c087583",
+                  "title": "Skewing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #16:\nAutomated repeated clicking or requesting or submitting content, affecting application based metrics such as counts, and measures of frequency and/or rate",
+                  "mitigation": "Defences include control of interaction frequency or proper enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "e0f50da9-2246-4e69-97cc-67f640b00859",
+                  "title": "Spamming",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "See OWASP Automated Threat #17:\nStoring malicious such as malware, Iframe distribution, photographs & videos, advertisements, referrer spam and tracking/surveillance code",
+                  "mitigation": "Defences include detecting embedded malicious code, controling interaction frequency and enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Recommendation Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Recommendation Request"
+            ],
+            "id": "a376ff6c-b7a0-4acb-a844-21de45854114",
+            "source": {
+              "x": 243,
+              "y": 233
+            },
+            "target": {
+              "cell": "a738ece7-cdb3-46c3-92f6-1f7597c299a6",
+              "port": "b5683ab4-41bf-4f0c-b734-12b7403f1c7b"
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User and Movie Database",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "User and Movie Database"
+            ],
+            "id": "9ee1db9f-00d1-42b1-9b06-7c4e695af9b4",
+            "source": {
+              "x": 785,
+              "y": 235
+            },
+            "target": {
+              "cell": "292f9012-f4b1-4c1c-9d9e-f1624c4f01a7",
+              "port": "e50786f4-72ad-442b-8571-6af59a2f833d"
+            },
+            "vertices": [
+              {
+                "x": 940,
+                "y": 235
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Invoke ML Model Server (SVD/KNN)\nfor recommendation results",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Invoke ML Model Server (SVD/KNN)\nfor recommendation results"
+            ],
+            "id": "56cc38d3-48e1-4892-a5c9-ba4fccb7cdbd",
+            "source": {
+              "x": 485,
+              "y": 235
+            },
+            "target": {
+              "cell": "397e2a4a-5006-427f-a8f6-0c6d8014e992",
+              "port": "b5683ab4-41bf-4f0c-b734-12b7403f1c7b"
+            },
+            "vertices": [
+              {
+                "x": 610,
+                "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Add User and Movie Data extracted from Kafka Stream and API",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Add User and Movie Data extracted from Kafka Stream and API"
+            ],
+            "id": "99fe481a-ea40-4216-aef8-a742144f28c4",
+            "source": {
+              "x": 1051,
+              "y": 100
+            },
+            "target": {
+              "cell": "292f9012-f4b1-4c1c-9d9e-f1624c4f01a7",
+              "port": "cbb3e97b-877d-444a-8039-0f554907b4bb"
+            },
+            "vertices": [
+              {
+                "x": 1051,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 1020,
+              "y": 40
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Kafka/API Data Collection Server"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2f4d3b78-fef9-4186-b066-58fb5e2def8d"
+                },
+                {
+                  "group": "right",
+                  "id": "4290c93b-87c6-4c6d-91b8-483dddba30e8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "92d6c6d0-6bca-4789-8b87-cc3d69a666f1"
+                },
+                {
+                  "group": "left",
+                  "id": "b5683ab4-41bf-4f0c-b734-12b7403f1c7b"
+                }
+              ]
+            },
+            "id": "bb528270-5214-4f7a-bc24-ec73ce233824",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": "Kafka/API Data Collection Server",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "905cc7aa-f96f-4bfd-ac44-6431948ef406",
+                  "title": "Expedition",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "See OWASP Automated Threat #6:\nUsing speed to violate explicit or implicit assumptions about the application’s normal use to achieve unfair individual gain",
+                  "mitigation": "Defences include providing enforcement of behavioral workflow and anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "179cdbf9-f257-46cd-aba9-6383d8d978a5",
+                  "title": "Vulnerability scanning",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #14:\nSystematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist",
+                  "mitigation": "Defence includes providing anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "cc9fc5db-b82e-4a96-9a58-9c86a7708c69",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "See OWASP Automated Threat #15:\nUsage may resemble legitimate application usage but leads to exhaustion of resources",
+                  "mitigation": "Mitigation or prevention such as providing backoff, resource management and avoiding forced deadlock",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 14
+  }
+}

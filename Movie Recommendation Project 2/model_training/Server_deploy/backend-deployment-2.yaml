@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend-v2-deployment  # TODO: Add a unique name 
+spec:
+  replicas: 2  # TODO: Adjust the replica count as desired
+  selector:
+    matchLabels:
+      app: backend-v2-deployment
+  template:
+    metadata:
+      labels:
+        app: backend-v2-deployment
+    spec:
+      containers:
+      - name: backend-v2-deployment
+        # TODO: Replace <your-dockerhub-username> with your Docker Hub username
+        image: sophiezh/knn-server:v1
+        ports:
+        - containerPort: 8084
+        env:
+        - name: MODEL_PORT
+          value: "8084"

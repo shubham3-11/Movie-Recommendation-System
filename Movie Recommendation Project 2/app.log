@@ -1,0 +1,123 @@
+2025-03-16 00:16:28,024 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:16:28,025 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:16:28,025 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:16:28,129 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:16:28,129 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:16:28,129 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:16:28,129 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:16:28,166 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:16:28,166 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:16:28,167 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:16:28,167 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:16:52,081 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:16:52,081 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:16:52,081 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:16:52,184 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:16:52,184 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:16:52,185 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:16:52,185 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:16:52,222 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:16:52,222 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:16:52,222 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:16:52,222 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:17:23,276 - ERROR - error inserting user info to db: yingfan2:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 67d650b4741e652865b6bff8, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('yingfan2', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('yingfan2:27017: [Errno -3] Temporary failure in name resolution (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-03-16 00:28:56,579 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:28:56,579 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:28:56,579 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:28:56,683 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:28:56,683 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:28:56,683 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:28:56,684 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:28:56,758 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:28:56,759 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:28:56,759 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:28:56,759 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:30:04,804 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:30:04,804 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:30:04,805 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:30:04,908 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:30:04,908 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:30:04,908 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:30:04,908 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:30:05,004 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:30:05,004 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:30:05,004 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:30:05,005 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:34:52,303 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:34:52,303 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:34:52,303 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:34:52,406 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:34:52,406 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:34:52,407 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:34:52,407 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:34:52,520 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:34:52,520 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:34:52,521 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:34:52,521 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:35:48,331 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:35:48,331 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:35:48,332 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:35:48,435 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:35:48,435 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:35:48,435 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:35:48,435 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:35:48,508 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:35:48,508 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:35:48,508 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:35:48,509 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:36:16,087 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:36:16,087 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:36:16,088 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:36:16,214 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:36:16,214 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:36:16,214 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:36:16,214 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:36:16,316 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:36:16,317 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:36:16,317 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:36:16,317 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:37:56,330 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:37:56,330 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:37:56,330 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:37:56,433 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:37:56,433 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:37:56,434 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:37:56,434 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:37:56,528 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:37:56,529 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:37:56,529 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:37:56,529 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:39:07,536 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:39:07,536 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:39:07,536 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:39:07,640 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:39:07,640 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:39:07,640 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:39:07,640 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:39:07,736 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:39:07,737 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:39:07,737 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:39:07,737 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:39:19,862 - INFO - 2025-03-16T04:39:08.067535902,10025,recommendation request 17645-team08.isri.cmu.edu:8082, status 0, result: dispatch.StatusCode: Unexpected response status: 500, 5 ms
+2025-03-16 00:43:37,441 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:43:37,441 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:43:37,441 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:43:37,544 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:43:37,544 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:43:37,545 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:43:37,545 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:43:37,639 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:43:37,640 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:43:37,640 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:43:37,640 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2025-03-16 00:46:25,127 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:46:25,127 - INFO - Probing node bootstrap-0 broker version
+2025-03-16 00:46:25,127 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:46:25,232 - INFO - Broker version identified as 2.6.0
+2025-03-16 00:46:25,232 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2025-03-16 00:46:25,233 - WARNING - group_id is None: disabling auto-commit.
+2025-03-16 00:46:25,233 - INFO - Updating subscribed topics to: ('movielog8',)
+2025-03-16 00:46:25,324 - INFO - Updated partition assignment: [TopicPartition(topic='movielog8', partition=0)]
+2025-03-16 00:46:25,325 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2025-03-16 00:46:25,325 - INFO - <BrokerConnection node_id=1 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2025-03-16 00:46:25,325 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 

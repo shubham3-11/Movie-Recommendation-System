@@ -1,0 +1,5 @@
+kafka-python @ git+https://github.com/dpkp/kafka-python.git@de43eee1b4e63931d756fea19ac058142730d141
+kafka-python-ng @ git+https://github.com/wbarnha/kafka-python-ng.git@61046232200688ceaba9726ab963b643b223b1d4
+pymongo==4.11.2
+python-dotenv==1.0.1
+Requests==2.32.3

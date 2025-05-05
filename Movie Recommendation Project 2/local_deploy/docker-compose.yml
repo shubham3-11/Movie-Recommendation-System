@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  kafka_fetch:
+    build:
+      context: ./data_processing
+    network_mode: host
+    command: ./startKafkaFetch.sh
+
+  model_v1:
+  build:
+    context: ./model_training/Server
+  network_mode: host
+  environment:
+    - MODEL_VERSION=v1
+    - MODEL_PORT=8083
+  command: ./startMLServer.sh
+
+model_v2:
+  build:
+    context: ./model_training/Server
+  network_mode: host
+  environment:
+    - MODEL_VERSION=v2
+    - MODEL_PORT=8084
+  command: ./startMLServer.sh
+
+  inference_service:
+    build:
+      context: ./inference_service
+    network_mode: host
+    command: ./startServer.sh
+    depends_on:
+      - kafka_fetch
+      - model_v1
+      - model_v2

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-load-balancer
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: flask-load-balancer
+  template:
+    metadata:
+      labels:
+        app: flask-load-balancer
+    spec:
+      containers:
+      - name: flask-load-balancer
+        # TODO: Replace <your-dockerhub-username> with your Docker Hub username
+        image: sophiezh/backend:v1
+        ports:
+        - containerPort: 8082
